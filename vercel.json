@@ -6,7 +6,7 @@
         },
         {
             "src":"/add",
-            "dest":"build/index.html"
+            "use":"build/index.html"
         },
         {
             "src" : "build/**",
