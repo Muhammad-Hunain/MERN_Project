@@ -8,10 +8,13 @@ exports.createProduct = (req,res)=>{
  const product = new Product(req.body)       
    const data = product.save();      
      if(data){
-           crossOriginIsolated.log( res.status(400));
+           crossOriginIsolated.log(res.status(400));
+           console.log('done')
      }
             else{
             console.log(res.status(201))
+           console.log('Not done')
+
         }
     
     res.status(200).json(req.body)

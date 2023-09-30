@@ -5,6 +5,10 @@
             "use": "@vercel/node"
         },
         {
+            "src":"/add",
+            "dest":"build/index.html"
+        },
+        {
             "src" : "build/**",
             "use": "@vercel/static"
         }
